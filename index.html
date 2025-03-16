@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroll</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- scrollHeight: The total height of the content, including the part that is not visible due to scrolling.
+        scrollY: The number of pixels the page has been scrolled vertically.
+        innerHeight: The height of the browser window’s visible area (viewport).
+        scrollLeft: The number of pixels the content is scrolled horizontally from the left.
+        scrollLeftMax: The maximum number of pixels you can scroll horizontally.
+        scrollTop: The number of pixels the content is scrolled vertically from the top.
+        scrollTopMax: The maximum number of pixels you can scroll vertically.
+        scrollWidth: The total width of the content, including the part that is not visible due to scrolling. -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+    <div class="container" id="container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
