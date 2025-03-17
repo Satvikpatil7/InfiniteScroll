@@ -1,4 +1,4 @@
-# Infinite Image Loader with Lazy Loading
+# Infinite Image 
 
 This project implements an infinite scrolling image loader that fetches random images and appends them to a container. It also supports smooth scrolling to the top of the page.
 
