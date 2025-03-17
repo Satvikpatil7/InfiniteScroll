@@ -54,7 +54,7 @@ window.addEventListener('scroll', () => {
   console.log("container.scrollHeight:", container.scrollHeight);
 
   // Check if the user has scrolled to the bottom of the page
-  if (window.scrollY + window.innerHeight + window.scrollY >= document.documentElement.scrollHeight) {
+  if (window.scrollY + window.innerHeight  >= document.documentElement.scrollHeight) {
     console.log("Loading more images...");
     loadImages();
   }
