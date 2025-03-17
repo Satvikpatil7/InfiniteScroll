@@ -48,7 +48,6 @@ window.addEventListener('scroll', () => {
   console.log("Scroll event detected");
 
   // Log the current scroll position and dimensions
-  console.log("scrollToTop:", window.scrollToTop);
   console.log("window.scrollY:", window.scrollY);
   console.log("window.innerHeight:", window.innerHeight);
   console.log("container.scrollHeight:", container.scrollHeight);
